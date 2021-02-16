@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.55)),url(../cake_images/3cakes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    background-color: black;
+}
+.clearfix:after{
+    content:".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear:both;
+}
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+.row{
+    max-width: 1180px;
+    margin:0 auto;
+}
+.logo{
+    height: 125px;
+    width: auto;
+    float: left;
+    margin-top: 15px;
+    position: absolute;
+    left:6%;
+   
+}
+.main-nav{
+    float:right;
+    margin-top: 35px;
+    right:6%;
+    position:absolute;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 35px;
+    margin-top: 20px;
+       
+}
+.main-nav li a{
+    padding: 2px 0px;
+    color:rgb(255, 183, 211);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 100px;   
+}
+.main-nav li a:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.content{
+    width: 1180px;
+    position: absolute;
+    top:35%;
+    left: 7%;
+}
+h1{
+    font-size: 200%;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+    word-spacing: 1px;
+    margin-bottom: 15px;
+}
+.button{
+    display: inline-block;
+    padding:  10px 22px ;
+    font-weight: light;
+    text-decoration: none;
+    border-radius: 200px;
+    font-size: 20px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+   
+}
+.btn-c{
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    border: 3px solid rgb(230, 1, 89);
+    font-weight: bold;
+    
+}
+.btn-c:hover{
+    background-color: rgb(247, 35, 116);
+}
+.colorchange{
+    animation: cakeday 1.2s infinite;
+
+
+}
+@keyframes cakeday{
+    0%{color:rgb(67, 231, 231);}
+    25%{color:rgb(248, 230, 130);}
+    50%{color:tomato;}
+    100%{color:rgb(255, 102, 196);}
+    
+}
+
